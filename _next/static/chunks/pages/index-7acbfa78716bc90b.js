@@ -566,11 +566,11 @@
                                                     a.jsxs)("a", {
                                                         className: "leading-6 text-gray-500",
                                                         children: ["$", (0,
-                                                        Z.IB)(null !== (v = null === h || void 0 === h ? void 0 : h.near_price) && void 0 !== v ? v : 0), " ", (0,
+                                                        Z.IB)(null !== (v = null === h || void 0 === h ? void 0 : 32) && void 0 !== v ? v : 0), " ", (0,
                                                         a.jsxs)("span", {
                                                             className: "text-gray-400",
                                                             children: ["@", (0,
-                                                            Z.bE)(null !== (T = null === h || void 0 === h ? void 0 : h.near_btc_price) && void 0 !== T ? T : 0), " BTC"]
+                                                            Z.bE)(null !== (T = null === h || void 0 === h ? void 0 : h.near_btc_price) && void 0 !== T ? T : 0), " ESC"]
                                                         }), " ", (null === h || void 0 === h ? void 0 : h.change_24) > 0 ? (0,
                                                         a.jsxs)("span", {
                                                             className: "text-neargreen text-sm",
@@ -935,7 +935,7 @@
                                     a.jsxs)("div", {
                                         className: "col-span-2 md:col-span-1 px-2 order-2 md:order-1 text-sm whitespace-nowrap truncate",
                                         children: [e("blockMiner"), " ", (0,
-                                        a.jsx)(u(), {
+                                        a.jsx)("span", {
                                             href: "/address/".concat(t.author_account_id),
                                             children: (0,
                                             a.jsx)("a", {
@@ -1159,7 +1159,7 @@
                                         a.jsxs)("div", {
                                             className: "whitespace-nowrap truncate",
                                             children: [e("txnFrom"), " ", (0,
-                                            a.jsx)(u(), {
+                                            a.jsx)("span", {
                                                 href: "/address/".concat(t.signer_account_id),
                                                 children: (0,
                                                 a.jsx)("a", {
@@ -1172,7 +1172,7 @@
                                         a.jsxs)("div", {
                                             className: "whitespace-nowrap truncate",
                                             children: [e("txnTo"), " ", (0,
-                                            a.jsx)(u(), {
+                                            a.jsx)("span", {
                                                 href: "/address/".concat(t.receiver_account_id),
                                                 children: (0,
                                                 a.jsx)("a", {

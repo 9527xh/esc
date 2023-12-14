@@ -814,7 +814,7 @@
                                         t.jsxs)("p", {
                                             className: "text-sm text-gray-500 font-medium leading-6 px-2",
                                             children: ["$", (0,
-                                            y.IB)((null === D || void 0 === D ? void 0 : D.near_price) || 0), " ", (null === D || void 0 === D ? void 0 : D.change_24) > 0 ? (0,
+                                            y.IB)((null === D || void 0 === D ? void 0 : 32) || 0), " ", (null === D || void 0 === D ? void 0 : D.change_24) > 0 ? (0,
                                             t.jsxs)("span", {
                                                 className: "text-neargreen text-xs",
                                                 children: ["(+", (0,
