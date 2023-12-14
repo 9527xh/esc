@@ -884,7 +884,7 @@
                                                     children: (0,
                                                     r.jsx)("a", {
                                                         className: "text-green-500 font-medium",
-                                                        children: e.transaction_hash
+                                                        children: "e".concat(e.transaction_hash)
                                                     })
                                                 })
                                             })
@@ -929,7 +929,7 @@
                                             r.jsx)("span", {
                                                 className: "truncate max-w-[120px] inline-block align-bottom text-green-500",
                                                 children: (0,
-                                                r.jsx)(i(), {
+                                                r.jsx)("span", {
                                                     href: "/address/".concat(e.signer_account_id),
                                                     children: (0,
                                                     r.jsx)("a", {
@@ -958,7 +958,7 @@
                                             r.jsx)("span", {
                                                 className: "truncate max-w-[120px] inline-block align-bottom text-green-500",
                                                 children: (0,
-                                                r.jsx)(i(), {
+                                                r.jsx)("span", {
                                                     href: "/address/".concat(e.receiver_account_id),
                                                     children: (0,
                                                     r.jsx)("a", {

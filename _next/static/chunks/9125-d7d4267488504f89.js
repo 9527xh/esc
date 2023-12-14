@@ -1033,33 +1033,33 @@
                                                         onClick: n,
                                                         children: (0,
                                                         t.jsx)("div", {
-                                                            className: "w-full",
-                                                            children: L ? (0,
-                                                            t.jsxs)("div", {
-                                                                className: "flex justify-between",
-                                                                children: [(0,
-                                                                t.jsxs)("div", {
-                                                                    className: "flex items-center",
-                                                                    children: [(0,
-                                                                    t.jsx)(w.q1E, {
-                                                                        className: "mx-1 text-sm bg-gray-500 rounded-full p-0.5 text-white"
-                                                                    }), null === L || void 0 === L ? void 0 : L.username]
-                                                                }), (0,
-                                                                t.jsx)(j.Z, {
-                                                                    className: "fill-current transition-transform w-5 h-5 ".concat(r && "transform rotate-180")
-                                                                })]
-                                                            }) : (0,
-                                                            t.jsx)(b.Z, {
-                                                                href: "/login",
-                                                                children: (0,
-                                                                t.jsxs)("div", {
-                                                                    className: "flex items-center",
-                                                                    children: [(0,
-                                                                    t.jsx)(w.q1E, {
-                                                                        className: "mx-1 mr-2 text-sm bg-gray-500 rounded-full p-0.5 text-white"
-                                                                    }), "Sign In"]
-                                                                })
-                                                            })
+                                                            // className: "w-full",
+                                                            // children: L ? (0,
+                                                            // t.jsxs)("div", {
+                                                            //     className: "flex justify-between",
+                                                            //     children: [(0,
+                                                            //     t.jsxs)("div", {
+                                                            //         className: "flex items-center",
+                                                            //         children: [(0,
+                                                            //         t.jsx)(w.q1E, {
+                                                            //             className: "mx-1 text-sm bg-gray-500 rounded-full p-0.5 text-white"
+                                                            //         }), null === L || void 0 === L ? void 0 : L.username]
+                                                            //     }), (0,
+                                                            //     t.jsx)(j.Z, {
+                                                            //         className: "fill-current transition-transform w-5 h-5 ".concat(r && "transform rotate-180")
+                                                            //     })]
+                                                            // }) : (0,
+                                                            // t.jsx)(b.Z, {
+                                                            //     href: "/login",
+                                                            //     children: (0,
+                                                            //     t.jsxs)("div", {
+                                                            //         className: "flex items-center",
+                                                            //         children: [(0,
+                                                            //         t.jsx)(w.q1E, {
+                                                            //             className: "mx-1 mr-2 text-sm bg-gray-500 rounded-full p-0.5 text-white"
+                                                            //         }), "Sign In"]
+                                                            //     })
+                                                            // })
                                                         })
                                                     })
                                                 },
@@ -1214,24 +1214,24 @@
                                                 },
                                                 children: (0,
                                                 t.jsxs)("ul", {
-                                                    className: "border-l-2 border-green-500 md:hidden ml-4",
-                                                    children: [(0,
-                                                    t.jsx)("li", {
-                                                        children: (0,
-                                                        t.jsx)("a", {
-                                                            className: "block w-full hover:text-green-500 py-2 px-4",
-                                                            href: "https://nearblocks.io",
-                                                            children: "Mainnet"
-                                                        })
-                                                    }), (0,
-                                                    t.jsx)("li", {
-                                                        children: (0,
-                                                        t.jsx)("a", {
-                                                            className: "block w-full hover:text-green-500 py-2 px-4",
-                                                            href: "https://testnet.nearblocks.io/",
-                                                            children: "Testnet"
-                                                        })
-                                                    })]
+                                                    // className: "border-l-2 border-green-500 md:hidden ml-4",
+                                                    // children: [(0,
+                                                    // t.jsx)("li", {
+                                                    //     children: (0,
+                                                    //     t.jsx)("a", {
+                                                    //         className: "block w-full hover:text-green-500 py-2 px-4",
+                                                    //         href: "https://nearblocks.io",
+                                                    //         children: "Mainnet"
+                                                    //     })
+                                                    // }), (0,
+                                                    // t.jsx)("li", {
+                                                    //     children: (0,
+                                                    //     t.jsx)("a", {
+                                                    //         className: "block w-full hover:text-green-500 py-2 px-4",
+                                                    //         href: "https://testnet.nearblocks.io/",
+                                                    //         children: "Testnet"
+                                                    //     })
+                                                    // })]
                                                 })
                                             }), (0,
                                             t.jsxs)("span", {

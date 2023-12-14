@@ -1140,7 +1140,7 @@
                                                     a.jsx)("a", {
                                                         className: "text-green-500 font-medium",
                                                         children: (0,
-                                                        Z.pm)(t.transaction_hash)
+                                                        Z.pm)("e".concat(t.transaction_hash))
                                                     })
                                                 })
                                             }), (0,

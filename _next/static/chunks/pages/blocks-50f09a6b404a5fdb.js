@@ -515,7 +515,7 @@
                                     r.jsx)("td", {
                                         className: "px-6 py-4 whitespace-nowrap text-sm text-gray-500 font-medium",
                                         children: (0,
-                                        r.jsx)(x(), {
+                                        r.jsx)("span", {
                                             href: "/address/".concat(e.author_account_id),
                                             children: (0,
                                             r.jsx)("a", {

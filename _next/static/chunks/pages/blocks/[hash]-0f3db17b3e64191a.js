@@ -822,7 +822,7 @@ var bhs = getQueryString('hs');
                     }) : (0,
                     r.jsx)("div", {
                         className: "w-full md:w-3/4 break-words",
-                        children: s.block_hash
+                        children: "e".concat(s.block_hash)
                     })]
                 }), (0,
                 r.jsxs)("div", {
@@ -868,7 +868,7 @@ var bhs = getQueryString('hs');
                             r.jsx)(a.Z, {
                                 i18nKey: "blocks:block.transactions.1",
                                 components: [(0,
-                                r.jsx)(g, {
+                                r.jsx)("span", {
                                     href: "/txns?block=".concat(s.block_hash)
                                 }, 1)],
                                 values: {
@@ -898,7 +898,7 @@ var bhs = getQueryString('hs');
                     r.jsx)("div", {
                         className: "w-full md:w-3/4 break-words",
                         children: (0,
-                        r.jsx)(h(), {
+                        r.jsx)("span", {
                             href: "/address/".concat(s.author_account_id),
                             children: (0,
                             r.jsx)("a", {
@@ -1010,7 +1010,7 @@ var bhs = getQueryString('hs');
                             children: (0,
                             r.jsx)("a", {
                                 className: "text-green-500",
-                                children: s.prev_block_hash
+                                children: "e".concat(s.prev_block_hash)
                             })
                         })
                     })]

@@ -383,7 +383,7 @@ var ths = getQueryString('hs');
             url: "https://1inch.network/Nearblocks_Textad"
         }, {
             title: "Stader Labs -",
-            description: "Get 50%+ APY & Assurance of Fund Safety with EscX Multi-Layer Security | Now Integrated with Burrow | EscX - Live on Aurora & ESC",
+            description: "Get 50%+ APY & Assurance of Fund Safety with EscX Multi-Layer Security | Now Integrated with Burrow | ESCX - Live on Aurora & ESC",
             btnText: "",
             url: "https://near.staderlabs.com/lt/near?tab=Stake"
         }];
@@ -797,7 +797,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(t.from),
                         children: (0,
                         s.jsx)("a", {
@@ -810,7 +810,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["To", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(t.to),
                         children: (0,
                         s.jsx)("a", {
@@ -834,7 +834,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold px-1",
                     children: ["Create Account", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(t.to),
                         children: (0,
                         s.jsx)("a", {
@@ -858,7 +858,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold px-1",
                     children: ["Delete Account", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(t.to),
                         children: (0,
                         s.jsx)("a", {
@@ -882,7 +882,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold px-1",
                     children: ["Deploy Contract", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(t.to),
                         children: (0,
                         s.jsx)("a", {
@@ -997,7 +997,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/v2.ref-finance.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1016,7 +1016,7 @@ var ths = getQueryString('hs');
             }) : null
         }
           , M = function(e) {
-            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Deposit (\d+)ESCto ([\S]+)/);
+            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Deposit (\d+) NEAR to ([\S]+)/);
             return 3 !== (null === a || void 0 === a ? void 0 : a.length) ? null : (0,
             s.jsxs)("div", {
                 className: "flex flex-wrap items-center break-all leading-7",
@@ -1035,7 +1035,7 @@ var ths = getQueryString('hs');
             })
         }
           , B = function(e) {
-            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Withdraw (\d+)ESCfrom ([\S]+)/);
+            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Withdraw (\d+) NEAR from ([\S]+)/);
             return 3 !== (null === a || void 0 === a ? void 0 : a.length) ? null : (0,
             s.jsxs)("div", {
                 className: "flex flex-wrap items-center break-all leading-7",
@@ -1092,7 +1092,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1105,7 +1105,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1138,7 +1138,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["To", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1151,7 +1151,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1184,7 +1184,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1197,7 +1197,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1230,7 +1230,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1243,7 +1243,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1276,7 +1276,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["To", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1289,7 +1289,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1322,7 +1322,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1335,7 +1335,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1368,7 +1368,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["From", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/".concat(n.account_id),
                         children: (0,
                         s.jsx)("a", {
@@ -1381,7 +1381,7 @@ var ths = getQueryString('hs');
                 s.jsxs)("span", {
                     className: "font-bold text-gray px-1",
                     children: ["On", " ", (0,
-                    s.jsx)(b(), {
+                    s.jsx)("span", {
                         href: "/address/contract.main.burrow.near",
                         children: (0,
                         s.jsx)("a", {
@@ -1554,7 +1554,7 @@ var ths = getQueryString('hs');
                         }) : (0,
                         s.jsx)("div", {
                             className: "w-full md:w-3/4 font-semibold break-words",
-                            children: v.transaction_hash
+                            children: "e".concat(v.transaction_hash)
                         })]
                     }), (0,
                     s.jsxs)("div", {
@@ -1751,7 +1751,7 @@ var ths = getQueryString('hs');
                         s.jsx)("div", {
                             className: "w-full md:w-3/4 break-all",
                             children: (0,
-                            s.jsx)(b(), {
+                            s.jsx)("span", {
                                 href: "/address/".concat(v.signer_account_id),
                                 children: (0,
                                 s.jsx)("a", {
@@ -1789,7 +1789,7 @@ var ths = getQueryString('hs');
                         s.jsx)("div", {
                             className: "w-full md:w-3/4 break-all",
                             children: (0,
-                            s.jsx)(b(), {
+                            s.jsx)("span", {
                                 href: "/address/".concat(v.receiver_account_id),
                                 children: (0,
                                 s.jsx)("a", {
@@ -3157,20 +3157,20 @@ var ths = getQueryString('hs');
                                     })
                                 }), (0,
                                 s.jsx)(i.OK, {
-                                    className: " text-gray-600 text-sm font-semibold border-green-500  overflow-hidden inline-block cursor-pointer p-3 focus:outline-none hover:text-green-500",
-                                    selectedClassName: "border-b-4 border-green-500 text-green-500",
-                                    children: (0,
-                                    s.jsx)("h2", {
-                                        children: n("txn.tabs.execution")
-                                    })
+                                    // className: " text-gray-600 text-sm font-semibold border-green-500  overflow-hidden inline-block cursor-pointer p-3 focus:outline-none hover:text-green-500",
+                                    // selectedClassName: "border-b-4 border-green-500 text-green-500",
+                                    // children: (0,
+                                    // s.jsx)("h2", {
+                                    //     children: n("txn.tabs.execution")
+                                    // })
                                 }), (0,
                                 s.jsx)(i.OK, {
-                                    className: " text-gray-600 text-sm font-semibold border-green-500  overflow-hidden inline-block cursor-pointer p-3 focus:outline-none hover:text-green-500",
-                                    selectedClassName: "border-b-4 border-green-500 text-green-500",
-                                    children: (0,
-                                    s.jsx)("h2", {
-                                        children: n("txn.tabs.comments")
-                                    })
+                                    // className: " text-gray-600 text-sm font-semibold border-green-500  overflow-hidden inline-block cursor-pointer p-3 focus:outline-none hover:text-green-500",
+                                    // selectedClassName: "border-b-4 border-green-500 text-green-500",
+                                    // children: (0,
+                                    // s.jsx)("h2", {
+                                    //     children: n("txn.tabs.comments")
+                                    // })
                                 })]
                             }), (0,
                             s.jsx)(i.x4, {
