@@ -1466,7 +1466,7 @@
                                         t.jsx)("li", {
                                             children: (0,
                                             t.jsx)(s(), {
-                                                href: "/about",
+                                                href: "https://www.edgesmartchain.com/",
                                                 children: (0,
                                                 t.jsx)("a", {
                                                     children: e("footer.links.about")
@@ -1474,53 +1474,53 @@
                                             })
                                         }), (0,
                                         t.jsx)("li", {
-                                            children: (0,
-                                            t.jsx)(s(), {
-                                                href: "https://careers.near.org/companies/invoker-labs",
-                                                children: (0,
-                                                t.jsxs)("a", {
-                                                    className: "flex",
-                                                    target: "_blank",
-                                                    rel: "noreferrer nofollow noopener",
-                                                    children: ["Careers", (0,
-                                                    t.jsx)("span", {
-                                                        children: (0,
-                                                        t.jsx)(_.Z, {
-                                                            className: "-rotate-45 -mt-0 h-4 w-4"
-                                                        })
-                                                    })]
-                                                })
-                                            })
+                                            // children: (0,
+                                            // t.jsx)(s(), {
+                                            //     href: "https://careers.near.org/companies/invoker-labs",
+                                            //     children: (0,
+                                            //     t.jsxs)("a", {
+                                            //         className: "flex",
+                                            //         target: "_blank",
+                                            //         rel: "noreferrer nofollow noopener",
+                                            //         children: ["Careers", (0,
+                                            //         t.jsx)("span", {
+                                            //             children: (0,
+                                            //             t.jsx)(_.Z, {
+                                            //                 className: "-rotate-45 -mt-0 h-4 w-4"
+                                            //             })
+                                            //         })]
+                                            //     })
+                                            // })
                                         }), (0,
                                         t.jsx)("li", {
-                                            children: (0,
-                                            t.jsx)(s(), {
-                                                href: "/advertise",
-                                                children: (0,
-                                                t.jsx)("a", {
-                                                    children: e("footer.links.advertise")
-                                                })
-                                            })
+                                            // children: (0,
+                                            // t.jsx)(s(), {
+                                            //     href: "/advertise",
+                                            //     children: (0,
+                                            //     t.jsx)("a", {
+                                            //         children: e("footer.links.advertise")
+                                            //     })
+                                            // })
                                         }), (0,
                                         t.jsx)("li", {
-                                            children: (0,
-                                            t.jsx)(s(), {
-                                                href: "/contact",
-                                                children: (0,
-                                                t.jsx)("a", {
-                                                    children: e("footer.links.contact")
-                                                })
-                                            })
+                                            // children: (0,
+                                            // t.jsx)(s(), {
+                                            //     href: "/contact",
+                                            //     children: (0,
+                                            //     t.jsx)("a", {
+                                            //         children: e("footer.links.contact")
+                                            //     })
+                                            // })
                                         }), (0,
                                         t.jsx)("li", {
-                                            children: (0,
-                                            t.jsx)(s(), {
-                                                href: "/terms-and-conditions",
-                                                children: (0,
-                                                t.jsx)("a", {
-                                                    children: e("footer.links.terms")
-                                                })
-                                            })
+                                            // children: (0,
+                                            // t.jsx)(s(), {
+                                            //     href: "/terms-and-conditions",
+                                            //     children: (0,
+                                            //     t.jsx)("a", {
+                                            //         children: e("footer.links.terms")
+                                            //     })
+                                            // })
                                         })]
                                     })]
                                 })]
