@@ -542,7 +542,7 @@
                                                 className: "items-center flex justify-left mr-3 ",
                                                 children: (0,
                                                 a.jsx)(p(), {
-                                                    src: "/images/ESC price.svg",
+                                                    src: "/images/near price.svg",
                                                     alt: t("nearPrice"),
                                                     className: "h-9 w-9",
                                                     width: "24",
