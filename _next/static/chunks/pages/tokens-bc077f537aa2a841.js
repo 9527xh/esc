@@ -1129,7 +1129,7 @@
                                             })
                                         }), "On-Chain MC", (0,
                                         r.jsx)(l.ZP, {
-                                            label: "Calculated by multiplying the token's  Total Supply on Near with the current market price per token",
+                                            label: "Calculated by multiplying the token's  Total Supply onESCwith the current market price per token",
                                             className: "absolute h-auto max-w-xs bg-black bg-opacity-90 z-10 text-xs text-white px-3 py-2",
                                             children: (0,
                                             r.jsx)("div", {
@@ -1355,31 +1355,31 @@
                 r.jsxs)(a.default, {
                     children: [(0,
                     r.jsx)("title", {
-                        children: "".concat("", " Near Protocol Ecosystem Tokens (NEP-141) | NearBlocks")
+                        children: "".concat("", "ESCProtocol Ecosystem Tokens (NEP-141) | ESC ")
                     }), (0,
                     r.jsx)("meta", {
                         name: "title",
-                        content: "Near Protocol Ecosystem Tokens (NEP-141) | NearBlocks"
+                        content: "ESC Protocol Ecosystem Tokens (NEP-141) | ESC "
                     }), (0,
                     r.jsx)("meta", {
                         name: "description",
-                        content: "A curated list of all NEP-141 Tokens within the Near Protocol Ecoystem. Discover statistics, holders, transaction volume and more."
+                        content: "A curated list of all NEP-141 Tokens within theESCProtocol Ecoystem. Discover statistics, holders, transaction volume and more."
                     }), (0,
                     r.jsx)("meta", {
                         property: "og:title",
-                        content: "Near Protocol Ecosystem Tokens (NEP-141) | NearBlocks"
+                        content: "ESC Protocol Ecosystem Tokens (NEP-141) | ESC "
                     }), (0,
                     r.jsx)("meta", {
                         property: "og:description",
-                        content: "A curated list of all NEP-141 Tokens within the Near Protocol Ecoystem. Discover statistics, holders, transaction volume and more."
+                        content: "A curated list of all NEP-141 Tokens within theESCProtocol Ecoystem. Discover statistics, holders, transaction volume and more."
                     }), (0,
                     r.jsx)("meta", {
                         property: "twitter:title",
-                        content: "Near Protocol Ecosystem Tokens (NEP-141) | NearBlocks"
+                        content: "ESC Protocol Ecosystem Tokens (NEP-141) | ESC "
                     }), (0,
                     r.jsx)("meta", {
                         property: "twitter:description",
-                        content: "A curated list of all NEP-141 Tokens within the Near Protocol Ecoystem. Discover statistics, holders, transaction volume and more."
+                        content: "A curated list of all NEP-141 Tokens within theESCProtocol Ecoystem. Discover statistics, holders, transaction volume and more."
                     }), (0,
                     r.jsx)("meta", {
                         property: "og:image",
@@ -1400,7 +1400,7 @@
                             children: (0,
                             r.jsx)("h1", {
                                 className: "mb-4 pt-8 sm:text-2xl text-xl text-white",
-                                children: "Near Protocol Ecosystem Tokens (NEP-141)"
+                                children: "ESC Protocol Ecosystem Tokens (NEP-141)"
                             })
                         })
                     }), (0,

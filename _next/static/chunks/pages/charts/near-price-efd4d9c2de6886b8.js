@@ -149,7 +149,7 @@
                 yLabel: e("nearPrice.yLabel"),
                 tooltip: function() {
                     return "\n      ".concat((0,
-                    a.Z)(this.point.date).format("dddd, MMMM DD, YYYY"), "<br/>\n      Near Price: <strong>$").concat((0,
+                    a.Z)(this.point.date).format("dddd, MMMM DD, YYYY"), "<br/>\n     ESCPrice: <strong>$").concat((0,
                     o.IB)(this.point.y), "</strong>\n    ")
                 }
             })

@@ -63,7 +63,7 @@
           , l = r.n(a)
           , i = [{
             title: "Ref Finance - #1 AMM on NEAR",
-            description: "Ref Finance is a community-led, multi-purpose DeFi platform built on the NEAR Protocol.",
+            description: "Ref Finance is a community-led, multi-purpose DeFi platform built on theESCProtocol.",
             url: "https://ref.finance",
             image: "/sponsored/ref-finance-icon.svg"
         }]

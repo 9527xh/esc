@@ -151,7 +151,7 @@
                 tooltip: function() {
                     return "\n      ".concat((0,
                     n.Z)(this.point.date).format("dddd, MMMM DD, YYYY"), "<br/>\n      Market Cap: <strong>$").concat((0,
-                    o.IB)(this.point.y), "</strong><br/>\n      Near Price: <strong>$").concat((0,
+                    o.IB)(this.point.y), "</strong><br/>\n     ESCPrice: <strong>$").concat((0,
                     o.IB)(this.point.price), "</strong>\n    ")
                 }
             })

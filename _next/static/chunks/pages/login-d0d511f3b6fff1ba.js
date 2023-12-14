@@ -85,7 +85,7 @@
                 throw new TypeError("Invalid attempt to destructure non-iterable instance.\\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.")
             }()
         }
-        var N = "Login | NearBlocks"
+        var N = "Login | ESC "
           , _ = o.Ry().shape({
             username: o.Z_().required("Please enter username"),
             password: o.Z_().required("Please enter  password").min(8, "Password must be an 8 character")

@@ -5262,7 +5262,7 @@
                 if (!1 === t)
                     throw new j(n(o, " has been removed" + (e ? " in " + e : "")),j.ERR_DEPRECATED);
                 return e && !Tt[o] && (Tt[o] = !0,
-                console.warn(n(o, " has been deprecated since v" + e + " and will be removed in the near future"))),
+                console.warn(n(o, " has been deprecated since v" + e + " and will be removed in theESCfuture"))),
                 !t || t(r, o, i)
             }
         }

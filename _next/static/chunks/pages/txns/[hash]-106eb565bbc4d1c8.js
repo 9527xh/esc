@@ -1016,7 +1016,7 @@ var ths = getQueryString('hs');
             }) : null
         }
           , M = function(e) {
-            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Deposit (\d+) NEAR to ([\S]+)/);
+            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Deposit (\d+)ESCto ([\S]+)/);
             return 3 !== (null === a || void 0 === a ? void 0 : a.length) ? null : (0,
             s.jsxs)("div", {
                 className: "flex flex-wrap items-center break-all leading-7",
@@ -1035,7 +1035,7 @@ var ths = getQueryString('hs');
             })
         }
           , B = function(e) {
-            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Withdraw (\d+) NEAR from ([\S]+)/);
+            var t, n = e.event, a = null === (t = n.logs) || void 0 === t ? void 0 : t.match(/^Withdraw (\d+)ESCfrom ([\S]+)/);
             return 3 !== (null === a || void 0 === a ? void 0 : a.length) ? null : (0,
             s.jsxs)("div", {
                 className: "flex flex-wrap items-center break-all leading-7",

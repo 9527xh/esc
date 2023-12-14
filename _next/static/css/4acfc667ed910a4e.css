@@ -1035,7 +1035,7 @@ img,video {
 }
 
 .animate-spin {
-    animation: spin 1s linear infinite
+    animation: spin 1s liESC infinite
 }
 
 .cursor-pointer {
@@ -3793,7 +3793,7 @@ ol.how-to-steps li:before {
 }
 
 .Toastify__progress-bar--animated {
-    animation: Toastify__trackProgress linear 1 forwards
+    animation: Toastify__trackProgress liESC 1 forwards
 }
 
 .Toastify__progress-bar--controlled {
@@ -3813,7 +3813,7 @@ ol.how-to-steps li:before {
     border-radius: 100%;
     border: 2px solid;
     border-right: 2px solid var(--toastify-spinner-color);
-    animation: Toastify__spin .65s linear infinite
+    animation: Toastify__spin .65s liESC infinite
 }
 
 @keyframes Toastify__bounceInRight {

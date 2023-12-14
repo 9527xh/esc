@@ -1380,7 +1380,7 @@
                                                     className: "flex",
                                                     target: "_blank",
                                                     rel: "noreferrer nofollow noopener",
-                                                    children: ["Near Token Bulksender", (0,
+                                                    children: ["ESC Token Bulksender", (0,
                                                     t.jsx)("span", {
                                                         children: (0,
                                                         t.jsx)(_.Z, {
@@ -1399,7 +1399,7 @@
                                                     className: "flex",
                                                     target: "_blank",
                                                     rel: "noreferrer nofollow noopener",
-                                                    children: ["Near KYC Platform", (0,
+                                                    children: ["ESC KYC Platform", (0,
                                                     t.jsx)("span", {
                                                         children: (0,
                                                         t.jsx)(_.Z, {
