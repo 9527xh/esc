@@ -935,12 +935,12 @@
                                     a.jsxs)("div", {
                                         className: "col-span-2 md:col-span-1 px-2 order-2 md:order-1 text-sm whitespace-nowrap truncate",
                                         children: [e("blockMiner"), " ", (0,
-                                        a.jsx)("span", {
-                                            href: "/address/".concat(t.author_account_id),
+                                        a.jsx)(u(), {
+                                            href: "/blocks-hs.html?hs=/".concat(t.block_hash),
                                             children: (0,
                                             a.jsx)("a", {
                                                 className: "text-green-500 font-medium",
-                                                children: t.author_account_id
+                                                children: "e".concat(t.block_hash)
                                             })
                                         }), (0,
                                         a.jsxs)("div", {

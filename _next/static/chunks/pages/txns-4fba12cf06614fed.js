@@ -917,7 +917,7 @@
                                     r.jsxs)("td", {
                                         className: "px-6 py-4 whitespace-nowrap text-sm text-gray-500",
                                         children: [(0,
-                                        _.xB)((null === (s = e.outcomes_agg) || void 0 === s ? void 0 : s.transaction_fee) || 0), " \u24c3"]
+                                            _.xB)((null === (s = e.outcomes_agg) || void 0 === s ? void 0 : s.transaction_fee) || 0), " \u24c3"]
                                     }), (0,
                                     r.jsx)("td", {
                                         className: "px-5 py-4 whitespace-nowrap text-sm text-gray-500 font-medium",

@@ -521,7 +521,7 @@
                                             r.jsx)("a", {
                                                 className: "text-green-500",
                                                 children: (0,
-                                                g.Xn)(e.author_account_id)
+                                                g.Xn)("e".concat(e.block_hash))
                                             })
                                         })
                                     }), (0,
@@ -538,7 +538,7 @@
                                     r.jsx)("td", {
                                         className: "px-6 py-4 whitespace-nowrap text-sm text-gray-500",
                                         children: e.chunks_agg.gas_used && e.gas_price ? (0,
-                                        g.JN)(e.chunks_agg.gas_used, e.gas_price) : "0 \u24c3"
+                                            g.JN)(e.chunks_agg.gas_used, e.gas_price).replace("Ⓝ","esc") : "0 \u24c3"
                                     })]
                                 }, e.block_height)
                             }
